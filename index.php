@@ -130,7 +130,7 @@
       <h6 class="text-center">کدهای سیم کارت 0912</h6>
       <div class="container-custom">
         <div class="box-code-simcart">
-          <div class="list-simcart">
+          <div class="list-simcart" data-seq="1">
             <div>
               <img src="assets/img/Frame 1269.png" alt="">
             </div>
@@ -138,7 +138,7 @@
           </div>
         </div>
         <div class="box-code-simcart">
-          <div class="list-simcart">
+          <div class="list-simcart" data-seq="2">
             <div>
               <img src="assets/img/Frame 1269.png" alt="">
             </div>
@@ -146,7 +146,7 @@
           </div>
         </div>
         <div class="box-code-simcart">
-          <div class="list-simcart">
+          <div class="list-simcart" data-seq="3">
             <div>
               <img src="assets/img/Frame 1269.png" alt="">
             </div>
@@ -154,7 +154,7 @@
           </div>
         </div>
         <div class="box-code-simcart">
-          <div class="list-simcart">
+          <div class="list-simcart" data-seq="4">
             <div>
               <img src="assets/img/Frame 1269.png" alt="">
             </div>
@@ -162,7 +162,7 @@
           </div>
         </div>
         <div class="box-code-simcart">
-          <div class="list-simcart">
+          <div class="list-simcart" data-seq="5">
             <div>
               <img src="assets/img/Frame 1269.png" alt="">
             </div>
@@ -170,7 +170,7 @@
           </div>
         </div>
         <div class="box-code-simcart">
-          <div class="list-simcart">
+          <div class="list-simcart" data-seq="6">
             <div>
               <img src="assets/img/Frame 1269.png" alt="">
             </div>
@@ -178,7 +178,7 @@
           </div>
         </div>
         <div class="box-code-simcart">
-          <div class="list-simcart">
+          <div class="list-simcart" data-seq="7">
             <div>
               <img src="assets/img/Frame 1269.png" alt="">
             </div>
@@ -186,7 +186,7 @@
           </div>
         </div>
         <div class="box-code-simcart">
-          <div class="list-simcart">
+          <div class="list-simcart" data-seq="8"> 
             <div>
               <img src="assets/img/Frame 1269.png" alt="">
             </div>
@@ -194,7 +194,7 @@
           </div>
         </div>
         <div class="box-code-simcart">
-          <div class="list-simcart">
+          <div class="list-simcart" data-seq="9">
             <div>
               <img src="assets/img/Frame 1269.png" alt="">
             </div>
@@ -202,7 +202,7 @@
           </div>
         </div>
         <div class="box-code-simcart">
-          <div class="list-simcart">
+          <div class="list-simcart" data-seq="0"> 
             <div>
               <img src="assets/img/Frame 1269.png" alt="">
             </div>
@@ -1067,8 +1067,11 @@
         }
       }
     }
-    let subMenu = document.getElementById("subMenu");
-    function ToggleMenu() {
+    
+    function ToggleMenu(id) {
+      if(id === 'subMenu2') document.getElementById('subMenu').classList.remove('openmenu')
+      if(id === 'subMenu') document.getElementById('subMenu2').classList.remove('openmenu')
+      let subMenu = document.getElementById(id);
       subMenu.classList.toggle("openmenu");
     }
     var date = new Date();

@@ -78,7 +78,7 @@
                     <div class="container-fluid">
                         <a class="nav-link" href="index.php">خــانه</a>
                         <div class="navbar-nav">
-                            <a class="nav-link" aria-current="page" href="#" onclick="ToggleMenu()">
+                            <a class="nav-link" aria-current="page" href="#" onclick="ToggleMenu('subMenu')">
                                 همراه اول
                                 <i class="bi bi-chevron-down"></i>
                                 <div class="submenu-wrap" id="subMenu">
@@ -144,9 +144,72 @@
                                     </div>
                                 </div>
                             </a>
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="#" onclick="ToggleMenu('subMenu2')">
                                 ایرانسل
-                                <i class="bi bi-chevron-down"></i></a>
+                                <i class="bi bi-chevron-down"></i>
+                                <div class="submenu-wrap" id="subMenu2">
+                                    <div class="submenu">
+                                        <div class="list-sim-menu">
+                                            <ul>
+                                                <p>ایرانسل دائمی</p>
+                                                <li>
+                                                    <a href="#"> 0912 </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"> 0912 </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"> 0912 </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"> 0912 </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"> 0912 </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"> 0912 </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"> 0912 </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"> 0912 </a>
+                                                </li>
+                                            </ul>
+                                            <ul>
+                                                <div class="text-start">
+                                                    <p>ایرانسل اعتباری</p>
+                                                </div>
+                                                <li>
+                                                    <a href="#"> 0912 </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"> 0912 </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"> 0912 </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"> 0912 </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"> 0912 </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"> 0912 </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"> 0912 </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"> 0912 </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
                             <a class="nav-link" href="#">اخبار مهم</a>
                             <a class="nav-link" href="#">وبلاگ</a>
                             <a class="nav-link" href="#">درباره رند بازار</a>
